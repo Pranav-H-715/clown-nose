@@ -1,0 +1,23 @@
+h1{
+    font-size: 25px !important;
+}
+.btn-danger:hover{
+    background-color    :blue;
+}
+canvas{
+    animation-name: abc;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes abc{
+    from{
+        box-shadow: 1px 1px 40px dodgerblue;
+    }
+    to{
+        box-shadow: 1px 1px 40px cyan;
+    }
+}
+body
+{
+    background-color: lightblue;
+}
